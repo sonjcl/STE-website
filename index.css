@@ -31,10 +31,10 @@ div.circle-avatar{
     height:auto;
     display:block;
     /* div height to be the same as width*/
-    padding-top:100%;
+    padding-top:30%;
 
     /* make it a circle */
-    border-radius:0%;
+    border-radius:100%;
 
     /* Centering on image`s center*/
     background-position-y: center;
@@ -53,10 +53,17 @@ div.circle-avatar{
 }
 
 .large-profile-container {
-    padding: 0 35%;
+    padding-left: 0;
+    display: flex;
+    width: 70%;
+    padding-right: 0;
+    height: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #profile-image {
-    /*background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThocvEgpdakgvOvjx8v2x_d20SbZc23RTvWWA_sZ7BifVfQny-);*/
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBg9WNgCeEPXIzs6S8iLhvm_9o-RZctCq1ZQ2vRDA_WJtzXkPf3A);
+
+    background-image:url(images/bah.png);
+    /*background-image:url(https://www.datacoalition.org/wp-content/uploads/2018/05/booz-allen-hamilton-logo-black-centered.png);*/
 }
